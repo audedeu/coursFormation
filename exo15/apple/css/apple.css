@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  font-family: georgia;
+  font-size: 20px;
+  text-align: center;
+}
+h3 {font-size: 12px;}
+nav {
+  font-family: georgia;
+  font-size: 12px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+main {
+  background-image: url('../img/backgroundBody.png');
+  background-repeat: repeat-y;
+  background-position: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: arial;
+  font-size: 36px;
+  margin-top: 50px
+}
+
+.articleImg {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: local;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-family: georgia;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.articleText {
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+  font-family: arial;
+  font-size: 16px;
+}
+
+#apple1 {
+  background-image: url('../img/apple1.jpg');
+}
+
+#Lisa {
+  background-image: url('../img/apple-lisa.jpg');
+}
+
+#next {
+  background-image: url('../img/NeXT_logo.png');
+}
+
+#pixar {
+  background-image: url('../img/pixar.jpg')
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  font-style: italic;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}

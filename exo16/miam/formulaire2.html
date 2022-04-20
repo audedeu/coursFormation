@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/miam.css" rel="stylesheet">
+    <title>contact</title>
+  </head>
+  <body>
+    <header>
+      <img src="img/logo-header.svg" alt="logo-header" />
+      <h3>Le site de référence de la cuisine facile</h3>
+    </header>
+
+    <nav>
+      <ol>
+        <li><a href="aperitif">Apéritif</a></li><!--
+          --><li><a href="entree">Entrée</a></li><!--
+        --><li><a href="plat">Plat</a></li><!--
+      --><li><a href="dessert">Dessert</a></li><!--
+      --><li><a href="formulaire.html">Se connecter</a></li><!--
+       --><li><a href="formulaire2.html">Contact</a></li>
+
+      </ol>
+
+    </nav>
+
+    <main>
+      <h1>Nous contacter:</h1>
+      <form method="post" action="traitement.php" class="contact">
+        <label for="nom">Nom*</label><br />
+        <input type="text" name="nom" id="nom" required autofocus /><br />
+        <label for="prenom">Prénom*</label><br />
+        <input type="text" name="prenom" id="prenom" required /><br />
+        <label for="email">Email*</label><br />
+        <input type="text" name="email" id="email" required /><br />
+        
+        <p>Sexe</p>
+        <input type="radio" name="sexe" value="Masculin" id="masculin"/>
+        <label for="masculin">Masculin</label><br />
+        <input type="radio" name="sexe" value="feminin" id="feminin"  />
+        <label for="feminin">Féminin</label><br />
+
+        <label for="raison">Indiquez-nous la raison de votre message</label><br />
+        <select name="raison" id="raison">
+        <option value="amelioration">
+          Amélioration potentielle
+        </option>
+        <option value="probleme">
+          Problème technique
+        </option>
+      </select><br />
+      <label for="message">Votre message</label><br />
+      <textarea name="message" id="message"></textarea>
+    </form>
+    </main>
+  </body>
+</html>

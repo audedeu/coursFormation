@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: arial;
+  font-size: 1rem;
+  /* 16/16 */
+}
+
+header img {
+  width: 30%;
+}
+
+header h3 {
+  font-weight: bold;
+  font-size: 1rem;
+  /* 16/16 */
+  color: #eb6e32;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ol li {
+  background-color: #ed6e32;
+  font-size: 1rem;
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 0.625rem;
+  /* 10/16 */
+  width: 16.66666%;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main img {
+  width: 100%;
+}
+
+.preparation {
+  font-weight: bold;
+  float: left;
+  width: 50%;
+}
+
+.ingredients {
+  float: left;
+  width: 50%;
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  /* 24/16 */
+  padding: 20px 0px 10px 0px;
+}
+
+h2 {
+  font-size: 1.188rem;
+  /* 19/16 */
+  color: #eb6e32;
+}
+
+.etapes ol li {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.etapes ol li::first-letter {
+  font-size: 150% font-weight: bold;
+  color: #eb6e32;
+}
+
+.connexion {
+  border: solid 2px #eb6e32;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+  margin-right: 10px
+}
+
+.inscription {
+  border: solid 2px #eb6e32;
+  padding: 10px;
+  display: inline-block;
+  width: 49%;
+  margin-left: 10px;
+}
+
+legend {
+  color: #eb6e32;
+  font-weight: bold;
+}
+
+.contact input[type="text"], .contact input[type="email"], .contact select, .contact textarea {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.contact input[type="radio"] {
+  margin-bottom: 10px;
+}
+
+.connexion input[type="text"], .connexion input[type="email"] {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.inscription input[type="text"], .inscription input[type="email"], .inscription input[type="password"] {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+  header img {
+    width: 100%;
+  }
+  nav h1 h2 h3 {
+    font-size: 1.5rem;
+    display: block;
+    padding-right: 0.625rem; /* 10/16 */
+  }
+  img {
+    width: 80%;
+  }
+}
