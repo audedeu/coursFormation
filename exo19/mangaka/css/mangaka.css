@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  font-family: 'Raleway';
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+}
+
+header h1 {
+  font-family: 'Yozakura JP';
+  text-align: right;
+  color: #b20043;
+}
+
+main h1 {
+  font-size: 1.5rem; /* 24/16 */
+  text-align: right;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+nav ol li {
+  width: 20%;
+  display: inline-block;
+  background-color: #b20043;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  border-right: 1px white solid;
+}
+
+nav ol li:last-child {
+  border: none;
+}
+
+nav a {
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  background-color: white;
+  opacity: 0.8;
+  margin-top: 3.125rem; /* 50/16 */
+  padding: 10px;
+}
+
+article {
+  width: 30%;
+  display: inline-block;
+  margin-right: 5%;
+  border: 1px solid #b20043;
+  vertical-align: top;
+}
+
+article:last-child {
+  margin-right: 0;
+}
+
+article img {
+  width: 100%;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.125rem; /* 18/16 */
+  text-align: center;
+}
+
+h3 {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 1rem; /* 16/16 */
+  padding-top: 10px;
+}
+
+p {
+  padding: 10px;
+}
+
+a {
+  padding: 10px;
+}
+
+
+footer {
+  background-color: black;
+  width: 100%;
+  margin-top: 20px;
+  color: white;
+}
+
+footer i {
+  font-size: 26px;
+  padding-right: 20px;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  font-style: italic;
+  padding-top: 20px;
+}
+
+@media screen and(max-width: 768px){
+  body
+  {width: 100%;
+   }
+  nav ol li{
+  width: 100%;
+  border-bottom: 1px solid white;
+  }
+  article{
+    width: 100%;
+  margin-bottom: 5%;
+  }
+}
